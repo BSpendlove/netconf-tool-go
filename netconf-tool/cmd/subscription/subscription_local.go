@@ -13,7 +13,7 @@ import (
 var subLocalCmd = &cobra.Command{
 	Use:   "local",
 	Short: "Attempts to create a <create-subscription> event and interact locally",
-	Long: ``,
+	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		log.Fatal("command currently not implemented")
 	},
